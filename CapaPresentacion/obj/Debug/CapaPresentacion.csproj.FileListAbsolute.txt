@@ -1,0 +1,13 @@
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPres.61CA7C38.Up2Date
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
