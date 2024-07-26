@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaNegocio;
 using CapaEntidad;
-using CapaDatos;
 
 namespace CapaPresentacion
 {
@@ -39,28 +38,43 @@ namespace CapaPresentacion
             List <Usuario> TEST = new CNUsuario().Listar();
 
 
-            Usuario oUsuario = new CNUsuario().Listar().Where(u => u.Documento == TxtDocumento.Text && u.Clave == TxtClave.Text).FirstOrDefault();
+            Usuario oUsuario = new CNUsuario().Listar().Where(u => u.Documento == Txtdocumento.Text && u.Clave == Txtclave.Text).FirstOrDefault();
+
+            if(oUsuario != null)
+            {
+                Inicio form = new Inicio();
+                // form.Show();
+                form.Hide();
+                form.Show();
+
+                form.FormClosing += Form_Closing;
 
 
-            Inicio form= new Inicio();
-           // form.Show();
-            form.Hide();
-            form.Show();
+            }
+            else
+            {
+                MessageBox.Show("No se encontro el usuario", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
 
-            form.FormClosing += Form_Closing;
+
 
         }
 
         private void Form_Closing(object sender, FormClosingEventArgs e)
 
         {
-            TxtDocumento.Text = "";
-            TxtClave.Text = "";
+            Txtdocumento.Text = "";
+            Txtclave.Text = "";
             this.Show();
 
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtClave_TextChanged(object sender, EventArgs e)
         {
 
         }

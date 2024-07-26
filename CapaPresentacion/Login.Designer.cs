@@ -31,8 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
-            this.TxtDocumento = new System.Windows.Forms.TextBox();
-            this.TxtClave = new System.Windows.Forms.TextBox();
+            this.Txtdocumento = new System.Windows.Forms.TextBox();
+            this.Txtclave = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.BtnIngresar = new FontAwesome.Sharp.IconButton();
@@ -75,21 +75,22 @@
             this.iconPictureBox1.TabIndex = 2;
             this.iconPictureBox1.TabStop = false;
             // 
-            // TxtDocumento
+            // Txtdocumento
             // 
-            this.TxtDocumento.Location = new System.Drawing.Point(209, 88);
-            this.TxtDocumento.Name = "TxtDocumento";
-            this.TxtDocumento.Size = new System.Drawing.Size(200, 20);
-            this.TxtDocumento.TabIndex = 3;
-            this.TxtDocumento.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.Txtdocumento.Location = new System.Drawing.Point(209, 88);
+            this.Txtdocumento.Name = "Txtdocumento";
+            this.Txtdocumento.Size = new System.Drawing.Size(200, 20);
+            this.Txtdocumento.TabIndex = 3;
+            this.Txtdocumento.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // TxtClave
+            // Txtclave
             // 
-            this.TxtClave.Location = new System.Drawing.Point(209, 177);
-            this.TxtClave.Name = "TxtClave";
-            this.TxtClave.PasswordChar = '*';
-            this.TxtClave.Size = new System.Drawing.Size(200, 20);
-            this.TxtClave.TabIndex = 4;
+            this.Txtclave.Location = new System.Drawing.Point(209, 177);
+            this.Txtclave.Name = "Txtclave";
+            this.Txtclave.PasswordChar = '*';
+            this.Txtclave.Size = new System.Drawing.Size(200, 20);
+            this.Txtclave.TabIndex = 4;
+            this.Txtclave.TextChanged += new System.EventHandler(this.TxtClave_TextChanged);
             // 
             // label3
             // 
@@ -160,8 +161,8 @@
             this.Controls.Add(this.BtnIngresar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.TxtClave);
-            this.Controls.Add(this.TxtDocumento);
+            this.Controls.Add(this.Txtclave);
+            this.Controls.Add(this.Txtdocumento);
             this.Controls.Add(this.iconPictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -180,8 +181,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
-        private System.Windows.Forms.TextBox TxtDocumento;
-        private System.Windows.Forms.TextBox TxtClave;
+        private System.Windows.Forms.TextBox Txtdocumento;
+        private System.Windows.Forms.TextBox Txtclave;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private FontAwesome.Sharp.IconButton BtnIngresar;
