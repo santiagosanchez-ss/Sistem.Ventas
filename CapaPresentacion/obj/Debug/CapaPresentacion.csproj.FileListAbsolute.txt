@@ -11,3 +11,9 @@ C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaP
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPres.61CA7C38.Up2Date
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaEntidad.dll
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaNegocio.pdb

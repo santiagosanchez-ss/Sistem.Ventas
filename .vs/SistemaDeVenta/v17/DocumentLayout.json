@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\capapresentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6FBE96-C76A-482A-A47D-92D8AB4E3FC1}|CapaDatos\\CapaDatos.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capadatos\\cdusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6FBE96-C76A-482A-A47D-92D8AB4E3FC1}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7035C266-5980-461F-AC86-84B52282CAD3}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capanegocio\\cnusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7035C266-5980-461F-AC86-84B52282CAD3}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cnusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB6FBE96-C76A-482A-A47D-92D8AB4E3FC1}|CapaDatos\\CapaDatos.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capadatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6FBE96-C76A-482A-A47D-92D8AB4E3FC1}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\capapresentacion\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\inicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +38,109 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Login.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\Login.cs",
-              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Login.cs",
-              "RelativeToolTip": "CapaPresentacion\\Login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T19:24:36.118Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Login.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Login.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\Login.cs",
               "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Login.cs [Dise\u00F1o]",
               "RelativeToolTip": "CapaPresentacion\\Login.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T19:08:34.353Z",
+              "WhenOpened": "2024-07-26T00:52:18.915Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\App.config",
+              "RelativeDocumentMoniker": "CapaPresentacion\\App.config",
+              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\App.config",
+              "RelativeToolTip": "CapaPresentacion\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-26T00:39:39.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Program.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\Program.cs",
               "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Program.cs",
               "RelativeToolTip": "CapaPresentacion\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-25T01:23:29.078Z"
+              "WhenOpened": "2024-07-26T00:37:06.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaDatos\\Conexion.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Conexion.cs",
+              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaDatos\\Conexion.cs",
+              "RelativeToolTip": "CapaDatos\\Conexion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T00:31:05.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Inicio.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Inicio.Designer.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\Inicio.Designer.cs",
-              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Inicio.Designer.cs",
-              "RelativeToolTip": "CapaPresentacion\\Inicio.Designer.cs",
-              "ViewState": "AQIAAI0AAAAAAAAAAAAYwJkAAABSAAAA",
+              "Title": "CDUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaDatos\\CDUsuario.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDUsuario.cs",
+              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaDatos\\CDUsuario.cs",
+              "RelativeToolTip": "CapaDatos\\CDUsuario.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T18:37:18.465Z"
+              "WhenOpened": "2024-07-25T17:28:45.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Login.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Login.cs",
+              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Login.cs",
+              "RelativeToolTip": "CapaPresentacion\\Login.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAtwD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T18:38:27.218Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Inicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Inicio.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\Inicio.cs",
-              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Inicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\Inicio.cs [Dise\u00F1o]",
+              "Title": "CNUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaNegocio\\CNUsuario.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CNUsuario.cs",
+              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaNegocio\\CNUsuario.cs",
+              "RelativeToolTip": "CapaNegocio\\CNUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T18:06:40.739Z"
+              "WhenOpened": "2024-07-25T18:22:22.797Z",
+              "EditorCaption": ""
             }
           ]
         }

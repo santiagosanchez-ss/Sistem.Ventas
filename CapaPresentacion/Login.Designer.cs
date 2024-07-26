@@ -31,8 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.TxtDocumento = new System.Windows.Forms.TextBox();
+            this.TxtClave = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.BtnIngresar = new FontAwesome.Sharp.IconButton();
@@ -75,20 +75,21 @@
             this.iconPictureBox1.TabIndex = 2;
             this.iconPictureBox1.TabStop = false;
             // 
-            // textBox1
+            // TxtDocumento
             // 
-            this.textBox1.Location = new System.Drawing.Point(209, 88);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 20);
-            this.textBox1.TabIndex = 3;
+            this.TxtDocumento.Location = new System.Drawing.Point(209, 88);
+            this.TxtDocumento.Name = "TxtDocumento";
+            this.TxtDocumento.Size = new System.Drawing.Size(200, 20);
+            this.TxtDocumento.TabIndex = 3;
+            this.TxtDocumento.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // TxtClave
             // 
-            this.textBox2.Location = new System.Drawing.Point(209, 177);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(200, 20);
-            this.textBox2.TabIndex = 4;
+            this.TxtClave.Location = new System.Drawing.Point(209, 177);
+            this.TxtClave.Name = "TxtClave";
+            this.TxtClave.PasswordChar = '*';
+            this.TxtClave.Size = new System.Drawing.Size(200, 20);
+            this.TxtClave.TabIndex = 4;
             // 
             // label3
             // 
@@ -112,6 +113,7 @@
             // BtnIngresar
             // 
             this.BtnIngresar.BackColor = System.Drawing.Color.RoyalBlue;
+            this.BtnIngresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnIngresar.ForeColor = System.Drawing.Color.White;
             this.BtnIngresar.IconChar = FontAwesome.Sharp.IconChar.DoorOpen;
@@ -121,16 +123,17 @@
             this.BtnIngresar.Location = new System.Drawing.Point(212, 212);
             this.BtnIngresar.Name = "BtnIngresar";
             this.BtnIngresar.Size = new System.Drawing.Size(90, 32);
-            this.BtnIngresar.TabIndex = 7;
+            this.BtnIngresar.TabIndex = 8;
             this.BtnIngresar.Text = "Ingresar";
             this.BtnIngresar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnIngresar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnIngresar.UseVisualStyleBackColor = false;
-            this.BtnIngresar.Click += new System.EventHandler(this.iconButton1_Click);
+            this.BtnIngresar.Click += new System.EventHandler(this.BtnInicio_Click);
             // 
             // BtnCancelar
             // 
             this.BtnCancelar.BackColor = System.Drawing.Color.Firebrick;
+            this.BtnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnCancelar.ForeColor = System.Drawing.Color.White;
             this.BtnCancelar.IconChar = FontAwesome.Sharp.IconChar.TimesCircle;
@@ -157,8 +160,8 @@
             this.Controls.Add(this.BtnIngresar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TxtClave);
+            this.Controls.Add(this.TxtDocumento);
             this.Controls.Add(this.iconPictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -177,8 +180,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox TxtDocumento;
+        private System.Windows.Forms.TextBox TxtClave;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private FontAwesome.Sharp.IconButton BtnIngresar;
