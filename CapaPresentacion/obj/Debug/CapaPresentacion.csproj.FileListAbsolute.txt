@@ -3,7 +3,6 @@ C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaP
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
-C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
@@ -17,3 +16,12 @@ C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaN
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaDatos.pdb
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaEntidad.pdb
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Inicio.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCategoria.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmClientes.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCompras.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmProducto.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmProveedores.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReportes.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmUsuarios.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmVentas.resources
