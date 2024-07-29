@@ -44,7 +44,7 @@
             this.MenuClientes = new FontAwesome.Sharp.IconMenuItem();
             this.MenuProveedores = new FontAwesome.Sharp.IconMenuItem();
             this.MenuReportes = new FontAwesome.Sharp.IconMenuItem();
-            this.MenuAcercade = new FontAwesome.Sharp.IconMenuItem();
+            this.MenuAcercaDe = new FontAwesome.Sharp.IconMenuItem();
             this.Usuario = new System.Windows.Forms.Label();
             this.LblUsuario = new System.Windows.Forms.Label();
             this.contenedor = new System.Windows.Forms.Panel();
@@ -98,7 +98,7 @@
             this.MenuClientes,
             this.MenuProveedores,
             this.MenuReportes,
-            this.MenuAcercade});
+            this.MenuAcercaDe});
             this.menu.Location = new System.Drawing.Point(0, 48);
             this.menu.Name = "menu";
             this.menu.Size = new System.Drawing.Size(1108, 73);
@@ -255,18 +255,18 @@
             this.MenuReportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.MenuReportes.Click += new System.EventHandler(this.MenuReportes_Click);
             // 
-            // MenuAcercade
+            // MenuAcercaDe
             // 
-            this.MenuAcercade.AutoSize = false;
-            this.MenuAcercade.IconChar = FontAwesome.Sharp.IconChar.CircleInfo;
-            this.MenuAcercade.IconColor = System.Drawing.Color.Black;
-            this.MenuAcercade.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.MenuAcercade.IconSize = 50;
-            this.MenuAcercade.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.MenuAcercade.Name = "MenuAcercade";
-            this.MenuAcercade.Size = new System.Drawing.Size(122, 69);
-            this.MenuAcercade.Text = "Acerca de";
-            this.MenuAcercade.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.MenuAcercaDe.AutoSize = false;
+            this.MenuAcercaDe.IconChar = FontAwesome.Sharp.IconChar.CircleInfo;
+            this.MenuAcercaDe.IconColor = System.Drawing.Color.Black;
+            this.MenuAcercaDe.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.MenuAcercaDe.IconSize = 50;
+            this.MenuAcercaDe.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.MenuAcercaDe.Name = "MenuAcercaDe";
+            this.MenuAcercaDe.Size = new System.Drawing.Size(122, 69);
+            this.MenuAcercaDe.Text = "Acerca de";
+            this.MenuAcercaDe.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // Usuario
             // 
@@ -332,7 +332,7 @@
         private FontAwesome.Sharp.IconMenuItem MenuClientes;
         private FontAwesome.Sharp.IconMenuItem MenuProveedores;
         private FontAwesome.Sharp.IconMenuItem MenuReportes;
-        private FontAwesome.Sharp.IconMenuItem MenuAcercade;
+        private FontAwesome.Sharp.IconMenuItem MenuAcercaDe;
         private System.Windows.Forms.Label Usuario;
         private System.Windows.Forms.Label LblUsuario;
         private FontAwesome.Sharp.IconMenuItem submenucategoria;
