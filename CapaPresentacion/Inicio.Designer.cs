@@ -58,7 +58,7 @@
             this.MenuTitulo.Location = new System.Drawing.Point(0, 0);
             this.MenuTitulo.Name = "MenuTitulo";
             this.MenuTitulo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.MenuTitulo.Size = new System.Drawing.Size(1108, 48);
+            this.MenuTitulo.Size = new System.Drawing.Size(1135, 48);
             this.MenuTitulo.TabIndex = 1;
             this.MenuTitulo.Text = "menuStrip2";
             // 
@@ -101,7 +101,7 @@
             this.MenuAcercaDe});
             this.menu.Location = new System.Drawing.Point(0, 48);
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(1108, 73);
+            this.menu.Size = new System.Drawing.Size(1135, 73);
             this.menu.TabIndex = 0;
             this.menu.Text = "menuStrip1";
             // 
@@ -292,16 +292,16 @@
             // 
             // contenedor
             // 
-            this.contenedor.Location = new System.Drawing.Point(0, 124);
+            this.contenedor.Location = new System.Drawing.Point(0, 137);
             this.contenedor.Name = "contenedor";
-            this.contenedor.Size = new System.Drawing.Size(1108, 318);
+            this.contenedor.Size = new System.Drawing.Size(1151, 620);
             this.contenedor.TabIndex = 5;
             // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1108, 441);
+            this.ClientSize = new System.Drawing.Size(1135, 561);
             this.Controls.Add(this.contenedor);
             this.Controls.Add(this.LblUsuario);
             this.Controls.Add(this.Usuario);
