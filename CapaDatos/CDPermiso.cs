@@ -31,7 +31,7 @@ namespace CapaDatos
 
 
                     SqlCommand cmd = new SqlCommand(query.ToString(), oConexion);
-                    cmd.Parameters.AddWithValue("IDUsuario", IdUsuario);
+                    cmd.Parameters.AddWithValue("IdUsuario", IdUsuario);
                     cmd.CommandType = CommandType.Text;
 
 

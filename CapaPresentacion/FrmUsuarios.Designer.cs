@@ -61,9 +61,9 @@
             this.TxtId = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.CboBusqueda = new System.Windows.Forms.ComboBox();
-            this.TxtBusqueda = new System.Windows.Forms.TextBox();
+            this.Txtbusqueda = new System.Windows.Forms.TextBox();
             this.BtnLimpiarBuscador = new FontAwesome.Sharp.IconButton();
-            this.BtmBuscar = new FontAwesome.Sharp.IconButton();
+            this.BtnBuscar = new FontAwesome.Sharp.IconButton();
             this.BtnEliminar = new FontAwesome.Sharp.IconButton();
             this.BtnLimpiar = new FontAwesome.Sharp.IconButton();
             this.BtnGuardar = new FontAwesome.Sharp.IconButton();
@@ -327,9 +327,11 @@
             // label10
             // 
             this.label10.BackColor = System.Drawing.Color.White;
+            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(313, 41);
             this.label10.Name = "label10";
+            this.label10.Padding = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.label10.Size = new System.Drawing.Size(753, 50);
             this.label10.TabIndex = 23;
             this.label10.Text = "Lista de Usuarios:";
@@ -342,6 +344,7 @@
             this.TxtId.Size = new System.Drawing.Size(39, 20);
             this.TxtId.TabIndex = 24;
             this.TxtId.Text = "0";
+            this.TxtId.Visible = false;
             // 
             // label11
             // 
@@ -362,12 +365,12 @@
             this.CboBusqueda.Size = new System.Drawing.Size(107, 21);
             this.CboBusqueda.TabIndex = 26;
             // 
-            // TxtBusqueda
+            // Txtbusqueda
             // 
-            this.TxtBusqueda.Location = new System.Drawing.Point(805, 58);
-            this.TxtBusqueda.Name = "TxtBusqueda";
-            this.TxtBusqueda.Size = new System.Drawing.Size(128, 20);
-            this.TxtBusqueda.TabIndex = 27;
+            this.Txtbusqueda.Location = new System.Drawing.Point(805, 58);
+            this.Txtbusqueda.Name = "Txtbusqueda";
+            this.Txtbusqueda.Size = new System.Drawing.Size(128, 20);
+            this.Txtbusqueda.TabIndex = 27;
             // 
             // BtnLimpiarBuscador
             // 
@@ -386,22 +389,23 @@
             this.BtnLimpiarBuscador.TabIndex = 29;
             this.BtnLimpiarBuscador.UseVisualStyleBackColor = false;
             // 
-            // BtmBuscar
+            // BtnBuscar
             // 
-            this.BtmBuscar.BackColor = System.Drawing.Color.White;
-            this.BtmBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtmBuscar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.BtmBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtmBuscar.ForeColor = System.Drawing.Color.Black;
-            this.BtmBuscar.IconChar = FontAwesome.Sharp.IconChar.Searchengin;
-            this.BtmBuscar.IconColor = System.Drawing.Color.Black;
-            this.BtmBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.BtmBuscar.IconSize = 18;
-            this.BtmBuscar.Location = new System.Drawing.Point(964, 57);
-            this.BtmBuscar.Name = "BtmBuscar";
-            this.BtmBuscar.Size = new System.Drawing.Size(30, 20);
-            this.BtmBuscar.TabIndex = 28;
-            this.BtmBuscar.UseVisualStyleBackColor = false;
+            this.BtnBuscar.BackColor = System.Drawing.Color.White;
+            this.BtnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnBuscar.ForeColor = System.Drawing.Color.Black;
+            this.BtnBuscar.IconChar = FontAwesome.Sharp.IconChar.Searchengin;
+            this.BtnBuscar.IconColor = System.Drawing.Color.Black;
+            this.BtnBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnBuscar.IconSize = 18;
+            this.BtnBuscar.Location = new System.Drawing.Point(964, 57);
+            this.BtnBuscar.Name = "BtnBuscar";
+            this.BtnBuscar.Size = new System.Drawing.Size(30, 20);
+            this.BtnBuscar.TabIndex = 28;
+            this.BtnBuscar.UseVisualStyleBackColor = false;
+            this.BtnBuscar.Click += new System.EventHandler(this.BtmBuscar_Click);
             // 
             // BtnEliminar
             // 
@@ -465,6 +469,7 @@
             this.TxtIndice.Size = new System.Drawing.Size(39, 20);
             this.TxtIndice.TabIndex = 30;
             this.TxtIndice.Text = "-1";
+            this.TxtIndice.Visible = false;
             // 
             // FrmUsuarios
             // 
@@ -474,8 +479,8 @@
             this.ClientSize = new System.Drawing.Size(1111, 529);
             this.Controls.Add(this.TxtIndice);
             this.Controls.Add(this.BtnLimpiarBuscador);
-            this.Controls.Add(this.BtmBuscar);
-            this.Controls.Add(this.TxtBusqueda);
+            this.Controls.Add(this.BtnBuscar);
+            this.Controls.Add(this.Txtbusqueda);
             this.Controls.Add(this.CboBusqueda);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.TxtId);
@@ -534,9 +539,9 @@
         private System.Windows.Forms.TextBox TxtId;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.ComboBox CboBusqueda;
-        private System.Windows.Forms.TextBox TxtBusqueda;
+        private System.Windows.Forms.TextBox Txtbusqueda;
         private FontAwesome.Sharp.IconButton BtnLimpiarBuscador;
-        private FontAwesome.Sharp.IconButton BtmBuscar;
+        private FontAwesome.Sharp.IconButton BtnBuscar;
         private System.Windows.Forms.DataGridViewButtonColumn BtnSeleccionar;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id;
         private System.Windows.Forms.DataGridViewTextBoxColumn Documento;

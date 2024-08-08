@@ -46,11 +46,11 @@ namespace CapaPresentacion
             foreach(IconMenuItem IconMenu in menu.Items)
 
             {
-                bool Econtrado = ListaPermiso.Any(m => m.NombreMenu == IconMenu.Name);
+                bool Encontrado = ListaPermiso.Any(m => m.NombreMenu == IconMenu.Name);
 
-                if(Econtrado == false)
+                if(Encontrado == true)
                 {
-                    IconMenu.Visible = false;
+                    IconMenu.Visible = true;
                 }
             }
 
@@ -148,5 +148,7 @@ namespace CapaPresentacion
             AbrirFormulario((IconMenuItem)sender, new FrmReportes());
 
         }
+
+        
     }
 }
