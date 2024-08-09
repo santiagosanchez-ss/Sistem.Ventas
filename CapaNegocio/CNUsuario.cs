@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
-using CapaDatos;
+﻿using CapaDatos;
 using CapaEntidad;
+using System.Collections.Generic;
 namespace CapaNegocio
 {
     //CN = CAPA Negocio
@@ -22,17 +16,18 @@ namespace CapaNegocio
         public int Registrar(Usuario obj, out string Mensaje)
         {
             //VALIDACIONES DE REGISTRO 
-            Mensaje = string.Empty; 
+            Mensaje = string.Empty;
 
-            if(obj.NombreCompleto=="")
-            {
-                Mensaje += "Es necesario ingresar el nombre completo del usuario\n ";
-
-            }
 
             if (obj.Documento == "")
             {
                 Mensaje += "Es necesario ingresar el documento del usuario\n";
+
+            }
+
+            if (obj.NombreCompleto == "")
+            {
+                Mensaje += "Es necesario ingresar el nombre completo del usuario\n ";
 
             }
 
@@ -42,7 +37,7 @@ namespace CapaNegocio
 
             }
 
-            if(Mensaje != string.Empty)
+            if (Mensaje != string.Empty)
             {
                 return 0;
             }

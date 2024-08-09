@@ -388,6 +388,7 @@
             this.BtnLimpiarBuscador.Size = new System.Drawing.Size(30, 20);
             this.BtnLimpiarBuscador.TabIndex = 29;
             this.BtnLimpiarBuscador.UseVisualStyleBackColor = false;
+            this.BtnLimpiarBuscador.Click += new System.EventHandler(this.BtnLimpiarBuscador_Click);
             // 
             // BtnBuscar
             // 
@@ -441,7 +442,7 @@
             this.BtnLimpiar.TabIndex = 19;
             this.BtnLimpiar.Text = "Limpiar";
             this.BtnLimpiar.UseVisualStyleBackColor = false;
-            this.BtnLimpiar.Click += new System.EventHandler(this.BtnEditar_Click);
+            this.BtnLimpiar.Click += new System.EventHandler(this.BtnLimpiar_Click);
             // 
             // BtnGuardar
             // 

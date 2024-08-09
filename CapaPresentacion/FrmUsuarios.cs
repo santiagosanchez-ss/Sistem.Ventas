@@ -120,9 +120,15 @@ namespace CapaPresentacion
 
         }
 
-        private void BtnEditar_Click(object sender, EventArgs e)
+        private void BtnLimpiar_Click(object sender, EventArgs e)
         {
-
+            TxtDocumento.Text = "";
+            TxtNombreCompleto.Text = "";
+            TxtCorreo.Text = "";
+            TxtClave.Text = "";
+            TxtConfirmarClave.Text = "";
+            CboRol.Text = "";
+            CboEstado.Text = "";
         }
 
         private void FrmUsuarios_Load(object sender, EventArgs e)
@@ -148,7 +154,7 @@ namespace CapaPresentacion
             {
                 if (columns.Visible == true && columns.Name != "BtnSeleccionar")
                 {
-                    CboBusqueda.Items.Add(new OpcionCombo() { Valor = 1, Texto = columns.HeaderText });
+                    CboBusqueda.Items.Add(new OpcionCombo() { Valor = columns.Name, Texto = columns.HeaderText });
 
                     CboBusqueda.DisplayMember = "Texto";
                     CboBusqueda.ValueMember = "Valor";
@@ -182,7 +188,8 @@ namespace CapaPresentacion
 
         private void Limpiar()
         {
-            TxtId.Text = "0";
+            TxtIndice.Text = "-1";
+            TxtId.Text = "";
             TxtDocumento.Text = "";
             TxtNombreCompleto.Text = "";
             TxtCorreo.Text = "";
@@ -190,7 +197,6 @@ namespace CapaPresentacion
             TxtConfirmarClave.Text = "";
             CboRol.SelectedIndex = 0;
             CboEstado.SelectedIndex = 0;
-            TxtIndice.Text = "-1";
 
             TxtDocumento.Select();
         }
@@ -263,10 +269,10 @@ namespace CapaPresentacion
             }
         }
 
-        private void BtmBuscar_Click(object sender, EventArgs e)
+        private void  BtmBuscar_Click(object sender, EventArgs e)
         {
-            string ColumnaFiltro = ((OpcionCombo)CboBusqueda.SelectedItem).Valor.ToString();
 
+            string ColumnaFiltro = ((OpcionCombo)CboBusqueda.SelectedItem).Valor.ToString();
             if (DGVData.Rows.Count > 0)
             {
                 foreach( DataGridViewRow row in DGVData.Rows)
@@ -275,8 +281,17 @@ namespace CapaPresentacion
                     
                         row.Visible = true;
                     else
-                        row.Visible = false;                    
+                        row.Visible = false;                
                 }
+            }
+        }
+
+        private void BtnLimpiarBuscador_Click(object sender, EventArgs e)
+        {
+            Txtbusqueda.Text = "";
+            foreach(DataGridViewRow row in DGVData.Rows)
+            {
+                row.Visible = true;
             }
         }
     }
