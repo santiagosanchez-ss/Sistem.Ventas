@@ -135,7 +135,7 @@ namespace CapaPresentacion
                     DataGridViewRow Row = DGVData.Rows[Convert.ToInt32(TxtIndice.Text)];
                     Row.Cells["Id"].Value = TxtId.Text;
                     Row.Cells["Codigo"].Value = TxtCodigoo.Text;
-                    Row.Cells["NombreCompleto"].Value = TxtNombreCompleto.Text;
+                    Row.Cells["Nombre"].Value = TxtNombreCompleto.Text;
                     Row.Cells["Descripcion"].Value = TxtDescripcionProd.Text;
                     Row.Cells["IdCategoria"].Value = ((OpcionCombo)CboCategoria.SelectedItem).Valor.ToString();
                     Row.Cells["Categoria"].Value = ((OpcionCombo)CboCategoria.SelectedItem).Texto.ToString();
@@ -153,15 +153,16 @@ namespace CapaPresentacion
             }
 
         }
-        public void Limpiar ()
+        private void Limpiar ()
         {
+
             TxtIndice.Text = "-1";
-            TxtId.Text = "";
+            TxtId.Text = "0";
             TxtCodigoo.Text = "";
             TxtNombreCompleto.Text = "";
             TxtDescripcionProd.Text = "";
-            CboCategoria.SelectedIndex = 0;
-            CboEstado.SelectedIndex = 0;
+            CboCategoria.SelectedItem = 0;
+            CboEstado.SelectedItem = 0;
 
             TxtCodigoo.Select();
         }
@@ -284,14 +285,15 @@ namespace CapaPresentacion
 
         private void BtnLimpiar_Click(object sender, EventArgs e)
         {
-            TxtId.Text = "";
-            TxtIndice.Text = "";
+            TxtIndice.Text = "-1";
+            TxtId.Text = "0";  
             TxtCodigoo.Text = "";
             TxtNombreCompleto.Text = "";
             TxtDescripcionProd.Text = "";
-            CboCategoria.Text = "";
-            CboEstado.Text = "";
-           
+            CboCategoria.SelectedItem = 0;
+            CboEstado.SelectedItem = 0;
+
+            TxtCodigoo.Select();
         }
     }
 
