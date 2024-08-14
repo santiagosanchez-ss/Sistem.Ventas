@@ -3,13 +3,10 @@ using CapaNegocio;
 using CapaPresentacion.Utilidades;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using ClosedXML.Excel;
 
 namespace CapaPresentacion
 {
@@ -86,7 +83,7 @@ namespace CapaPresentacion
                 Codigo = TxtCodigoo.Text,
                 Nombre = TxtNombreCompleto.Text,
                 Descripcion = TxtDescripcionProd.Text,
-                oCategoria = new Categoria() { IdCategoria= Convert.ToInt32(((OpcionCombo)CboCategoria.SelectedItem).Valor) },
+                oCategoria = new Categoria() { IdCategoria = Convert.ToInt32(((OpcionCombo)CboCategoria.SelectedItem).Valor) },
                 Estado = Convert.ToInt32(((OpcionCombo)CboEstado.SelectedItem).Valor) == 1 ? true : false
             };
 
@@ -153,7 +150,7 @@ namespace CapaPresentacion
             }
 
         }
-        private void Limpiar ()
+        private void Limpiar()
         {
 
             TxtIndice.Text = "-1";
@@ -199,7 +196,7 @@ namespace CapaPresentacion
                     TxtCodigoo.Text = DGVData.Rows[indice].Cells["Codigo"].Value.ToString();
                     TxtNombreCompleto.Text = DGVData.Rows[indice].Cells["Nombre"].Value.ToString();
                     TxtDescripcionProd.Text = DGVData.Rows[indice].Cells["Descripcion"].Value.ToString();
-                  
+
                     foreach (OpcionCombo oc in CboCategoria.Items)
                     {
                         if (Convert.ToInt32(oc.Valor) == Convert.ToInt32(DGVData.Rows[indice].Cells["IdCategoria"].Value))
@@ -245,7 +242,7 @@ namespace CapaPresentacion
                     if (respuesta)
                     {
                         DGVData.Rows.RemoveAt(Convert.ToInt32(TxtIndice.Text));
-                        
+
                         Limpiar();
                     }
                     else
@@ -286,7 +283,7 @@ namespace CapaPresentacion
         private void BtnLimpiar_Click(object sender, EventArgs e)
         {
             TxtIndice.Text = "-1";
-            TxtId.Text = "0";  
+            TxtId.Text = "0";
             TxtCodigoo.Text = "";
             TxtNombreCompleto.Text = "";
             TxtDescripcionProd.Text = "";
@@ -294,6 +291,133 @@ namespace CapaPresentacion
             CboEstado.SelectedItem = 0;
 
             TxtCodigoo.Select();
+        }
+        //DEscarga de tabla prod a excel 
+        private void BtnExcel_Click(object sender, EventArgs e)
+        {/*
+            //si es menor a 1 la cantidad de filas en en DGV tira mensaje de error
+            if (DGVData.Rows.Count < 1)
+            {
+                MessageBox.Show("No hay datos para exportar", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+            }
+
+
+            //en caso de ser mayor a 1 se crea un dataTable y se recorre las columnas del DGV, si la columna es != "" se inserta en el descargable
+
+            DataTable dt = new DataTable();
+            
+            List<int> columnIndexes = new List<int>();
+
+            foreach (DataGridViewColumn columna in DGVData.Columns)
+            {
+                if (!string.IsNullOrWhiteSpace(columna.HeaderText) && columna.Visible)
+                {
+                    dt.Columns.Add(columna.HeaderText, typeof(string));
+                   
+                    columnIndexes.Add(columna.Index);
+                    
+                    Console.WriteLine($"Columna añadida: {columna.HeaderText}, Index: {columna.Index}");
+                }
+                else
+                {
+                    Console.WriteLine($"Columna omitida: {columna.HeaderText}, Visible: {columna.Visible}");
+                }
+                //Se recorre tambien las filas y en caso de que la fila sea visible se agrega al descargable
+                foreach (DataGridViewRow row in DGVData.Rows)
+                {
+                    if (row.Visible)
+                    {
+                        List<object> values = new List<object>();
+                        // Agregar solo las celdas correspondientes a las columnas que se han añadido al DataTable
+                        foreach (int columnIndex in columnIndexes)
+                        {
+                            var cellValue = row.Cells[columnIndex].Value;
+                            values.Add(cellValue?.ToString() ?? string.Empty);
+                        }
+
+                        dt.Rows.Add(values.ToArray());
+
+
+                        // Depuración: Verificar la cantidad de valores antes de añadir la fila
+                        Console.WriteLine($"Añadiendo fila con {values.Count} valores.");
+
+                        // Asegurarse de que la cantidad de valores coincida con las columnas del DataTable
+                        if (values.Count == dt.Columns.Count)
+                        {
+                            dt.Rows.Add(values.ToArray());
+                        }
+                        else
+                        {
+                            Console.WriteLine("Error: La cantidad de valores no coincide con la cantidad de columnas.");
+                        }
+                    }
+                }
+            }*/
+
+
+            if (DGVData.Rows.Count < 1)
+            {
+                MessageBox.Show("no hay datos para exportar", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+            }
+            else
+            {
+                DataTable Dt = new DataTable();
+                foreach (DataGridViewColumn columna in DGVData.Columns)
+
+                {
+
+                    if (columna.HeaderText != "" && columna.Visible)
+                    {
+
+                        Dt.Columns.Add(columna.HeaderText, typeof(string));
+                    }
+
+                }
+                foreach (DataGridViewRow row in DGVData.Rows)
+                {
+                    if (row.Visible)
+                        Dt.Rows.Add(new object[]
+                        {
+                            row.Cells[2].Value.ToString(),
+                            row.Cells[3].Value.ToString(),
+                            row.Cells[4].Value.ToString(),
+                            row.Cells[6].Value.ToString(),
+                            row.Cells[7].Value.ToString(),
+                            row.Cells[8].Value.ToString(),
+                            row.Cells[9].Value.ToString(),
+                            row.Cells[11].Value.ToString(),
+                        });
+                }
+                SaveFileDialog SaveFile = new SaveFileDialog();
+
+                SaveFile.FileName = string.Format("Reporteproducto_{0}.xlsx", DateTime.Now.ToString("ddMMyyyyHHmmss"));
+                SaveFile.Filter = "Excel files | *.xlsx ";
+
+                if (SaveFile.ShowDialog() == DialogResult.OK)
+                {
+                    try
+                    {
+                        XLWorkbook wb = new XLWorkbook();
+
+                        var Hoja = wb.Worksheets.Add(Dt, "Informe");
+                        Hoja.ColumnsUsed().AdjustToContents();
+                        wb.SaveAs(SaveFile.FileName);
+                        MessageBox.Show("Reporte Generado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Error al generar reporte", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+                    }
+                }
+
+
+
+            }
+
+
         }
     }
 

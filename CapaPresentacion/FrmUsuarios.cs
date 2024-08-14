@@ -294,5 +294,12 @@ namespace CapaPresentacion
                 row.Visible = true;
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }
