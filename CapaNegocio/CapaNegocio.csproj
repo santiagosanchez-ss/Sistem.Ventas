@@ -45,6 +45,7 @@
     <Compile Include="CNProducto.cs" />
     <Compile Include="CNCategoria.cs" />
     <Compile Include="CNPermiso.cs" />
+    <Compile Include="CNProveedor.cs" />
     <Compile Include="CNRol.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CNUsuario.cs" />

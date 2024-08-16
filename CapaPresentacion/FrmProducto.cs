@@ -294,66 +294,7 @@ namespace CapaPresentacion
         }
         //DEscarga de tabla prod a excel 
         private void BtnExcel_Click(object sender, EventArgs e)
-        {/*
-            //si es menor a 1 la cantidad de filas en en DGV tira mensaje de error
-            if (DGVData.Rows.Count < 1)
-            {
-                MessageBox.Show("No hay datos para exportar", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-
-            }
-
-
-            //en caso de ser mayor a 1 se crea un dataTable y se recorre las columnas del DGV, si la columna es != "" se inserta en el descargable
-
-            DataTable dt = new DataTable();
-            
-            List<int> columnIndexes = new List<int>();
-
-            foreach (DataGridViewColumn columna in DGVData.Columns)
-            {
-                if (!string.IsNullOrWhiteSpace(columna.HeaderText) && columna.Visible)
-                {
-                    dt.Columns.Add(columna.HeaderText, typeof(string));
-                   
-                    columnIndexes.Add(columna.Index);
-                    
-                    Console.WriteLine($"Columna añadida: {columna.HeaderText}, Index: {columna.Index}");
-                }
-                else
-                {
-                    Console.WriteLine($"Columna omitida: {columna.HeaderText}, Visible: {columna.Visible}");
-                }
-                //Se recorre tambien las filas y en caso de que la fila sea visible se agrega al descargable
-                foreach (DataGridViewRow row in DGVData.Rows)
-                {
-                    if (row.Visible)
-                    {
-                        List<object> values = new List<object>();
-                        // Agregar solo las celdas correspondientes a las columnas que se han añadido al DataTable
-                        foreach (int columnIndex in columnIndexes)
-                        {
-                            var cellValue = row.Cells[columnIndex].Value;
-                            values.Add(cellValue?.ToString() ?? string.Empty);
-                        }
-
-                        dt.Rows.Add(values.ToArray());
-
-
-                        // Depuración: Verificar la cantidad de valores antes de añadir la fila
-                        Console.WriteLine($"Añadiendo fila con {values.Count} valores.");
-
-                        // Asegurarse de que la cantidad de valores coincida con las columnas del DataTable
-                        if (values.Count == dt.Columns.Count)
-                        {
-                            dt.Rows.Add(values.ToArray());
-                        }
-                        else
-                        {
-                            Console.WriteLine("Error: La cantidad de valores no coincide con la cantidad de columnas.");
-                        }
-                    }
-                }
-            }*/
+        {
 
 
             if (DGVData.Rows.Count < 1)
@@ -392,7 +333,7 @@ namespace CapaPresentacion
                 }
                 SaveFileDialog SaveFile = new SaveFileDialog();
 
-                SaveFile.FileName = string.Format("Reporteproducto_{0}.xlsx", DateTime.Now.ToString("ddMMyyyyHHmmss"));
+                SaveFile.FileName = string.Format("Reporteproducto_{0}.xlsx", DateTime.Now.ToString("dd/MM/yyyy/HH:mm:ss"));
                 SaveFile.Filter = "Excel files | *.xlsx ";
 
                 if (SaveFile.ShowDialog() == DialogResult.OK)

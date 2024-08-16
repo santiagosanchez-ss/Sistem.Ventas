@@ -1,11 +1,14 @@
 ﻿using CapaEntidad;
 using CapaNegocio;
 using CapaPresentacion.Utilidades;
+using ClosedXML.Excel;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Windows.Forms;
+using System.Data;
+
 
 namespace CapaPresentacion
 {
@@ -300,6 +303,126 @@ namespace CapaPresentacion
 
         }
 
-        
+        private void BtnExcel_Click(object sender, EventArgs e)
+        {
+            /*
+            if (DGVData.Rows.Count < 1)
+            {
+                MessageBox.Show("no hay datos para exportar", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+            }
+            else
+            {
+                DataTable Dt = new DataTable();
+                foreach (DataGridViewColumn columna in DGVData.Columns)
+
+                {
+
+                    if (columna.HeaderText != "" && columna.Visible)
+                    {
+
+                        Dt.Columns.Add(columna.HeaderText, typeof(string));
+                    }
+
+                }
+                foreach (DataGridViewRow row in DGVData.Rows)
+                {
+                    if (row.Visible)
+                        Dt.Rows.Add(new object[]
+                        {
+                            row.Cells[2].Value.ToString(),
+                            row.Cells[3].Value.ToString(),
+                            row.Cells[4].Value.ToString(),
+                            row.Cells[6].Value.ToString(),
+                            row.Cells[7].Value.ToString(),
+                            row.Cells[8].Value.ToString(),
+                            row.Cells[9].Value.ToString(),
+                            row.Cells[11].Value.ToString(),
+                        });
+                }
+                SaveFileDialog SaveFile = new SaveFileDialog();
+
+                SaveFile.FileName = string.Format("ReporteCliente_{0}.xlsx", DateTime.Now.ToString("ddMMyyyyHHmmss"));
+                SaveFile.Filter = "Excel files | *.xlsx ";
+
+                if (SaveFile.ShowDialog() == DialogResult.OK)
+                {
+                    try
+                    {
+                        XLWorkbook wb = new XLWorkbook();
+
+                        var Hoja = wb.Worksheets.Add(Dt, "Informe");
+                        Hoja.ColumnsUsed().AdjustToContents();
+                        wb.SaveAs(SaveFile.FileName);
+                        MessageBox.Show("Reporte Generado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Error al generar reporte", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+                    }
+                }
+                */
+            if (DGVData.Rows.Count < 1)
+            {
+                MessageBox.Show("No hay datos para exportar", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
+
+            // Crear DataTable y agregar columnas visibles
+            DataTable Dt = new DataTable();
+            foreach (DataGridViewColumn columna in DGVData.Columns)
+            {
+                if (columna.Visible && !string.IsNullOrEmpty(columna.HeaderText))
+                {
+                    Dt.Columns.Add(columna.HeaderText);
+                }
+            }
+
+            // Llenar el DataTable con los datos visibles de las filas
+            foreach (DataGridViewRow row in DGVData.Rows)
+            {
+                if (row.Visible)
+                {
+                    var newRow = Dt.NewRow();
+                    foreach (DataGridViewColumn columna in DGVData.Columns)
+                    {
+                        if (columna.Visible && !string.IsNullOrEmpty(columna.HeaderText))
+                        {
+                            newRow[columna.HeaderText] = row.Cells[columna.Index].Value?.ToString() ?? string.Empty;
+                        }
+                    }
+                    Dt.Rows.Add(newRow);
+                }
+            }
+
+            // Configurar el diálogo de guardado
+            using (SaveFileDialog SaveFile = new SaveFileDialog
+            {
+                FileName = $"ReporteUsuario_{DateTime.Now:dd/MM/yyyy/HH:mm:ss}.xlsx",
+                Filter = "Excel files | *.xlsx"
+            })
+            {
+                if (SaveFile.ShowDialog() == DialogResult.OK)
+                {
+                    try
+                    {
+                        using (XLWorkbook wb = new XLWorkbook())
+                        {
+                            wb.Worksheets.Add(Dt, "Informe").ColumnsUsed().AdjustToContents();
+                            wb.SaveAs(SaveFile.FileName);
+                        }
+                        MessageBox.Show("Reporte Generado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error al generar reporte: {ex.Message}", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    }
+                }
+            }
+
+
+
+        }
     }
 }

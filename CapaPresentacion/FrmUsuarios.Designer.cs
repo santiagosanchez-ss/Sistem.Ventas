@@ -68,6 +68,7 @@
             this.BtnLimpiar = new FontAwesome.Sharp.IconButton();
             this.BtnGuardar = new FontAwesome.Sharp.IconButton();
             this.TxtIndice = new System.Windows.Forms.TextBox();
+            this.BtnExcel = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.DGVData)).BeginInit();
             this.SuspendLayout();
             // 
@@ -474,12 +475,34 @@
             this.TxtIndice.Text = "-1";
             this.TxtIndice.Visible = false;
             // 
+            // BtnExcel
+            // 
+            this.BtnExcel.BackColor = System.Drawing.Color.LightGray;
+            this.BtnExcel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnExcel.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.BtnExcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnExcel.ForeColor = System.Drawing.Color.Black;
+            this.BtnExcel.IconChar = FontAwesome.Sharp.IconChar.Download;
+            this.BtnExcel.IconColor = System.Drawing.Color.LimeGreen;
+            this.BtnExcel.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.BtnExcel.IconSize = 18;
+            this.BtnExcel.Location = new System.Drawing.Point(926, 367);
+            this.BtnExcel.Name = "BtnExcel";
+            this.BtnExcel.Size = new System.Drawing.Size(140, 28);
+            this.BtnExcel.TabIndex = 62;
+            this.BtnExcel.Text = "Descargar a Excel";
+            this.BtnExcel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.BtnExcel.UseVisualStyleBackColor = false;
+            this.BtnExcel.Click += new System.EventHandler(this.BtnExcel_Click);
+            // 
             // FrmUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1124, 494);
+            this.Controls.Add(this.BtnExcel);
             this.Controls.Add(this.TxtIndice);
             this.Controls.Add(this.BtnLimpiarBuscador);
             this.Controls.Add(this.BtnBuscar);
@@ -556,5 +579,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn EstadoValor;
         private System.Windows.Forms.DataGridViewTextBoxColumn Estado;
         private System.Windows.Forms.TextBox TxtIndice;
+        private FontAwesome.Sharp.IconButton BtnExcel;
     }
 }
