@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\frmnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A335E91E-C8A7-4D3E-8948-FEE34FDBEC6D}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capaentidad\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A335E91E-C8A7-4D3E-8948-FEE34FDBEC6D}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7035C266-5980-461F-AC86-84B52282CAD3}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capanegocio\\cnnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7035C266-5980-461F-AC86-84B52282CAD3}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cnnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DB6FBE96-C76A-482A-A47D-92D8AB4E3FC1}|CapaDatos\\CapaDatos.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capadatos\\cdnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB6FBE96-C76A-482A-A47D-92D8AB4E3FC1}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmproveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\frmnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,29 +41,8 @@
               "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmProducto.cs",
-              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmProducto.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\FrmProducto.cs",
-              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmProducto.cs",
-              "RelativeToolTip": "CapaPresentacion\\FrmProducto.cs",
-              "ViewState": "AQIAADYBAAAAAAAAAAAWwE8BAAB5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T00:07:03.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmProducto.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmProducto.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\FrmProducto.cs",
-              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmProducto.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\FrmProducto.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T00:07:01.402Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
@@ -83,77 +50,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmProveedores.cs",
-              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmProveedores.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\FrmProveedores.cs",
-              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmProveedores.cs",
-              "RelativeToolTip": "CapaPresentacion\\FrmProveedores.cs",
-              "ViewState": "AQIAABIBAAAAAAAAAAAWwDIBAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T00:06:12.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FrmProveedores.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmProveedores.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\FrmProveedores.cs",
-              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmProveedores.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\FrmProveedores.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T00:06:09.4Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmUsuarios.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\FrmUsuarios.cs",
-              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmUsuarios.cs",
-              "RelativeToolTip": "CapaPresentacion\\FrmUsuarios.cs",
-              "ViewState": "AQIAAH8BAAAAAAAAAAAAAJEBAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T00:03:40.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrmUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmUsuarios.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\FrmUsuarios.cs",
-              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmUsuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\FrmUsuarios.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T00:03:34.483Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FrmClientes.cs",
-              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmClientes.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\FrmClientes.cs",
-              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmClientes.cs",
-              "RelativeToolTip": "CapaPresentacion\\FrmClientes.cs",
-              "ViewState": "AQIAAEwBAAAAAAAAAAAtwBABAAAMAAAA",
+              "Title": "CNNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaNegocio\\CNNegocio.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CNNegocio.cs",
+              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaNegocio\\CNNegocio.cs",
+              "RelativeToolTip": "CapaNegocio\\CNNegocio.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwB8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T23:55:01.413Z",
+              "WhenOpened": "2024-08-16T19:24:34.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FrmClientes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmClientes.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\FrmClientes.cs",
-              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmClientes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CapaPresentacion\\FrmClientes.cs [Dise\u00F1o]",
+              "Title": "CDNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaDatos\\CDNegocio.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDNegocio.cs",
+              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaDatos\\CDNegocio.cs",
+              "RelativeToolTip": "CapaDatos\\CDNegocio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T23:52:54.476Z",
+              "WhenOpened": "2024-08-16T19:00:03.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmNegocio.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\FrmNegocio.cs",
+              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmNegocio.cs",
+              "RelativeToolTip": "CapaPresentacion\\FrmNegocio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T17:40:25.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Negocio.cs",
+              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaEntidad\\Negocio.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\Negocio.cs",
+              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaEntidad\\Negocio.cs",
+              "RelativeToolTip": "CapaEntidad\\Negocio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T16:38:22.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmNegocio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmNegocio.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\FrmNegocio.cs",
+              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmNegocio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\FrmNegocio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T15:56:58.551Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

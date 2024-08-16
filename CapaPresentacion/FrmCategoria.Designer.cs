@@ -154,7 +154,7 @@
             this.BtnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnEliminar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEliminar.ForeColor = System.Drawing.Color.Black;
+            this.BtnEliminar.ForeColor = System.Drawing.Color.White;
             this.BtnEliminar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.BtnEliminar.IconColor = System.Drawing.Color.Black;
             this.BtnEliminar.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -172,11 +172,11 @@
             this.BtnLimpiar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnLimpiar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLimpiar.ForeColor = System.Drawing.Color.Black;
+            this.BtnLimpiar.ForeColor = System.Drawing.Color.White;
             this.BtnLimpiar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.BtnLimpiar.IconColor = System.Drawing.Color.White;
             this.BtnLimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.BtnLimpiar.Location = new System.Drawing.Point(37, 177);
+            this.BtnLimpiar.Location = new System.Drawing.Point(36, 177);
             this.BtnLimpiar.Name = "BtnLimpiar";
             this.BtnLimpiar.Size = new System.Drawing.Size(208, 23);
             this.BtnLimpiar.TabIndex = 47;
@@ -268,7 +268,7 @@
             this.BtnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnGuardar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BtnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnGuardar.ForeColor = System.Drawing.Color.Black;
+            this.BtnGuardar.ForeColor = System.Drawing.Color.White;
             this.BtnGuardar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.BtnGuardar.IconColor = System.Drawing.Color.White;
             this.BtnGuardar.IconFont = FontAwesome.Sharp.IconFont.Auto;
