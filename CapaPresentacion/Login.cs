@@ -35,7 +35,6 @@ namespace CapaPresentacion
 
         private void BtnInicio_Click(object sender, EventArgs e)
         { 
-            List <Usuario> TEST = new CNUsuario().Listar();
 
 
             Usuario oUsuario = new CNUsuario().Listar().Where(u => u.Documento == Txtdocumento.Text && u.Clave == Txtclave.Text).FirstOrDefault();

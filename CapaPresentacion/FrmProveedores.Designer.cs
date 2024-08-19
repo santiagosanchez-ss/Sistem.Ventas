@@ -30,15 +30,11 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.BtnLimpiarBuscador = new FontAwesome.Sharp.IconButton();
-            this.BtnBuscar = new FontAwesome.Sharp.IconButton();
             this.Txtbusqueda = new System.Windows.Forms.TextBox();
             this.CboBusqueda = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
             this.TxtId = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.BtnEliminar = new FontAwesome.Sharp.IconButton();
-            this.BtnLimpiar = new FontAwesome.Sharp.IconButton();
             this.DGVData = new System.Windows.Forms.DataGridView();
             this.BtnSeleccionar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -51,7 +47,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.TxtIndice = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.BtnGuardar = new FontAwesome.Sharp.IconButton();
             this.CboEstado = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.TxtTelefono = new System.Windows.Forms.TextBox();
@@ -64,43 +59,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.BtnExcel = new FontAwesome.Sharp.IconButton();
+            this.BtnLimpiarBuscador = new FontAwesome.Sharp.IconButton();
+            this.BtnBuscar = new FontAwesome.Sharp.IconButton();
+            this.BtnEliminar = new FontAwesome.Sharp.IconButton();
+            this.BtnLimpiar = new FontAwesome.Sharp.IconButton();
+            this.BtnGuardar = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.DGVData)).BeginInit();
             this.SuspendLayout();
-            // 
-            // BtnLimpiarBuscador
-            // 
-            this.BtnLimpiarBuscador.BackColor = System.Drawing.Color.White;
-            this.BtnLimpiarBuscador.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnLimpiarBuscador.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.BtnLimpiarBuscador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLimpiarBuscador.ForeColor = System.Drawing.Color.Black;
-            this.BtnLimpiarBuscador.IconChar = FontAwesome.Sharp.IconChar.Broom;
-            this.BtnLimpiarBuscador.IconColor = System.Drawing.Color.Black;
-            this.BtnLimpiarBuscador.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.BtnLimpiarBuscador.IconSize = 18;
-            this.BtnLimpiarBuscador.Location = new System.Drawing.Point(1012, 64);
-            this.BtnLimpiarBuscador.Name = "BtnLimpiarBuscador";
-            this.BtnLimpiarBuscador.Size = new System.Drawing.Size(30, 20);
-            this.BtnLimpiarBuscador.TabIndex = 82;
-            this.BtnLimpiarBuscador.UseVisualStyleBackColor = false;
-            // 
-            // BtnBuscar
-            // 
-            this.BtnBuscar.BackColor = System.Drawing.Color.White;
-            this.BtnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnBuscar.ForeColor = System.Drawing.Color.Black;
-            this.BtnBuscar.IconChar = FontAwesome.Sharp.IconChar.Searchengin;
-            this.BtnBuscar.IconColor = System.Drawing.Color.Black;
-            this.BtnBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.BtnBuscar.IconSize = 18;
-            this.BtnBuscar.Location = new System.Drawing.Point(963, 64);
-            this.BtnBuscar.Name = "BtnBuscar";
-            this.BtnBuscar.Size = new System.Drawing.Size(30, 20);
-            this.BtnBuscar.TabIndex = 81;
-            this.BtnBuscar.UseVisualStyleBackColor = false;
-            this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
             // Txtbusqueda
             // 
@@ -149,41 +114,6 @@
             this.label10.TabIndex = 76;
             this.label10.Text = "Lista de Proveedores:";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // BtnEliminar
-            // 
-            this.BtnEliminar.BackColor = System.Drawing.Color.Red;
-            this.BtnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnEliminar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.BtnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEliminar.ForeColor = System.Drawing.Color.White;
-            this.BtnEliminar.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.BtnEliminar.IconColor = System.Drawing.Color.Black;
-            this.BtnEliminar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.BtnEliminar.Location = new System.Drawing.Point(33, 360);
-            this.BtnEliminar.Name = "BtnEliminar";
-            this.BtnEliminar.Size = new System.Drawing.Size(208, 23);
-            this.BtnEliminar.TabIndex = 73;
-            this.BtnEliminar.Text = "Eliminar";
-            this.BtnEliminar.UseVisualStyleBackColor = false;
-            this.BtnEliminar.Click += new System.EventHandler(this.BtnEliminar_Click);
-            // 
-            // BtnLimpiar
-            // 
-            this.BtnLimpiar.BackColor = System.Drawing.Color.RoyalBlue;
-            this.BtnLimpiar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnLimpiar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.BtnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnLimpiar.ForeColor = System.Drawing.Color.White;
-            this.BtnLimpiar.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.BtnLimpiar.IconColor = System.Drawing.Color.White;
-            this.BtnLimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.BtnLimpiar.Location = new System.Drawing.Point(33, 389);
-            this.BtnLimpiar.Name = "BtnLimpiar";
-            this.BtnLimpiar.Size = new System.Drawing.Size(208, 23);
-            this.BtnLimpiar.TabIndex = 72;
-            this.BtnLimpiar.Text = "Limpiar";
-            this.BtnLimpiar.UseVisualStyleBackColor = false;
             // 
             // DGVData
             // 
@@ -305,25 +235,6 @@
             this.label9.TabIndex = 74;
             this.label9.Text = "Detalle Proveedor:";
             // 
-            // BtnGuardar
-            // 
-            this.BtnGuardar.BackColor = System.Drawing.Color.ForestGreen;
-            this.BtnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnGuardar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.BtnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnGuardar.ForeColor = System.Drawing.Color.White;
-            this.BtnGuardar.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.BtnGuardar.IconColor = System.Drawing.Color.White;
-            this.BtnGuardar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.BtnGuardar.IconSize = 20;
-            this.BtnGuardar.Location = new System.Drawing.Point(33, 331);
-            this.BtnGuardar.Name = "BtnGuardar";
-            this.BtnGuardar.Size = new System.Drawing.Size(208, 23);
-            this.BtnGuardar.TabIndex = 71;
-            this.BtnGuardar.Text = "Guardar";
-            this.BtnGuardar.UseVisualStyleBackColor = false;
-            this.BtnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
-            // 
             // CboEstado
             // 
             this.CboEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -441,6 +352,95 @@
             this.BtnExcel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnExcel.UseVisualStyleBackColor = false;
             this.BtnExcel.Click += new System.EventHandler(this.BtnExcel_Click);
+            // 
+            // BtnLimpiarBuscador
+            // 
+            this.BtnLimpiarBuscador.BackColor = System.Drawing.Color.White;
+            this.BtnLimpiarBuscador.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnLimpiarBuscador.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.BtnLimpiarBuscador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnLimpiarBuscador.ForeColor = System.Drawing.Color.Black;
+            this.BtnLimpiarBuscador.IconChar = FontAwesome.Sharp.IconChar.Broom;
+            this.BtnLimpiarBuscador.IconColor = System.Drawing.Color.Black;
+            this.BtnLimpiarBuscador.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnLimpiarBuscador.IconSize = 18;
+            this.BtnLimpiarBuscador.Location = new System.Drawing.Point(1012, 64);
+            this.BtnLimpiarBuscador.Name = "BtnLimpiarBuscador";
+            this.BtnLimpiarBuscador.Size = new System.Drawing.Size(30, 20);
+            this.BtnLimpiarBuscador.TabIndex = 82;
+            this.BtnLimpiarBuscador.UseVisualStyleBackColor = false;
+            // 
+            // BtnBuscar
+            // 
+            this.BtnBuscar.BackColor = System.Drawing.Color.White;
+            this.BtnBuscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnBuscar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnBuscar.ForeColor = System.Drawing.Color.Black;
+            this.BtnBuscar.IconChar = FontAwesome.Sharp.IconChar.Searchengin;
+            this.BtnBuscar.IconColor = System.Drawing.Color.Black;
+            this.BtnBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnBuscar.IconSize = 18;
+            this.BtnBuscar.Location = new System.Drawing.Point(963, 64);
+            this.BtnBuscar.Name = "BtnBuscar";
+            this.BtnBuscar.Size = new System.Drawing.Size(30, 20);
+            this.BtnBuscar.TabIndex = 81;
+            this.BtnBuscar.UseVisualStyleBackColor = false;
+            this.BtnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
+            // 
+            // BtnEliminar
+            // 
+            this.BtnEliminar.BackColor = System.Drawing.Color.Red;
+            this.BtnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnEliminar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.BtnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEliminar.ForeColor = System.Drawing.Color.White;
+            this.BtnEliminar.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.BtnEliminar.IconColor = System.Drawing.Color.Black;
+            this.BtnEliminar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnEliminar.Location = new System.Drawing.Point(33, 360);
+            this.BtnEliminar.Name = "BtnEliminar";
+            this.BtnEliminar.Size = new System.Drawing.Size(208, 23);
+            this.BtnEliminar.TabIndex = 73;
+            this.BtnEliminar.Text = "Eliminar";
+            this.BtnEliminar.UseVisualStyleBackColor = false;
+            this.BtnEliminar.Click += new System.EventHandler(this.BtnEliminar_Click);
+            // 
+            // BtnLimpiar
+            // 
+            this.BtnLimpiar.BackColor = System.Drawing.Color.RoyalBlue;
+            this.BtnLimpiar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnLimpiar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.BtnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnLimpiar.ForeColor = System.Drawing.Color.White;
+            this.BtnLimpiar.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.BtnLimpiar.IconColor = System.Drawing.Color.White;
+            this.BtnLimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnLimpiar.Location = new System.Drawing.Point(33, 389);
+            this.BtnLimpiar.Name = "BtnLimpiar";
+            this.BtnLimpiar.Size = new System.Drawing.Size(208, 23);
+            this.BtnLimpiar.TabIndex = 72;
+            this.BtnLimpiar.Text = "Limpiar";
+            this.BtnLimpiar.UseVisualStyleBackColor = false;
+            // 
+            // BtnGuardar
+            // 
+            this.BtnGuardar.BackColor = System.Drawing.Color.ForestGreen;
+            this.BtnGuardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnGuardar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.BtnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnGuardar.ForeColor = System.Drawing.Color.White;
+            this.BtnGuardar.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.BtnGuardar.IconColor = System.Drawing.Color.White;
+            this.BtnGuardar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.BtnGuardar.IconSize = 20;
+            this.BtnGuardar.Location = new System.Drawing.Point(33, 331);
+            this.BtnGuardar.Name = "BtnGuardar";
+            this.BtnGuardar.Size = new System.Drawing.Size(208, 23);
+            this.BtnGuardar.TabIndex = 71;
+            this.BtnGuardar.Text = "Guardar";
+            this.BtnGuardar.UseVisualStyleBackColor = false;
+            this.BtnGuardar.Click += new System.EventHandler(this.BtnGuardar_Click);
             // 
             // FrmProveedores
             // 

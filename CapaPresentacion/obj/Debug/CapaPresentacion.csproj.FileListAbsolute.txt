@@ -46,3 +46,5 @@ C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\Syste
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmNegocio.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.MdProveedor.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.MdProducto.resources

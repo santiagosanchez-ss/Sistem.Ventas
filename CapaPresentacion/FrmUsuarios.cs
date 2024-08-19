@@ -204,12 +204,7 @@ namespace CapaPresentacion
             TxtDocumento.Select();
         }
 
-        private void CboEstado_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
+       
         // PARA PINTAR EL CHECK EN LA LISTA  ROW 0
         private void DGVData_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)
         {
@@ -305,64 +300,7 @@ namespace CapaPresentacion
 
         private void BtnExcel_Click(object sender, EventArgs e)
         {
-            /*
-            if (DGVData.Rows.Count < 1)
-            {
-                MessageBox.Show("no hay datos para exportar", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-
-            }
-            else
-            {
-                DataTable Dt = new DataTable();
-                foreach (DataGridViewColumn columna in DGVData.Columns)
-
-                {
-
-                    if (columna.HeaderText != "" && columna.Visible)
-                    {
-
-                        Dt.Columns.Add(columna.HeaderText, typeof(string));
-                    }
-
-                }
-                foreach (DataGridViewRow row in DGVData.Rows)
-                {
-                    if (row.Visible)
-                        Dt.Rows.Add(new object[]
-                        {
-                            row.Cells[2].Value.ToString(),
-                            row.Cells[3].Value.ToString(),
-                            row.Cells[4].Value.ToString(),
-                            row.Cells[6].Value.ToString(),
-                            row.Cells[7].Value.ToString(),
-                            row.Cells[8].Value.ToString(),
-                            row.Cells[9].Value.ToString(),
-                            row.Cells[11].Value.ToString(),
-                        });
-                }
-                SaveFileDialog SaveFile = new SaveFileDialog();
-
-                SaveFile.FileName = string.Format("ReporteCliente_{0}.xlsx", DateTime.Now.ToString("ddMMyyyyHHmmss"));
-                SaveFile.Filter = "Excel files | *.xlsx ";
-
-                if (SaveFile.ShowDialog() == DialogResult.OK)
-                {
-                    try
-                    {
-                        XLWorkbook wb = new XLWorkbook();
-
-                        var Hoja = wb.Worksheets.Add(Dt, "Informe");
-                        Hoja.ColumnsUsed().AdjustToContents();
-                        wb.SaveAs(SaveFile.FileName);
-                        MessageBox.Show("Reporte Generado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                    catch
-                    {
-                        MessageBox.Show("Error al generar reporte", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-
-                    }
-                }
-                */
+           
             if (DGVData.Rows.Count < 1)
             {
                 MessageBox.Show("No hay datos para exportar", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -424,5 +362,7 @@ namespace CapaPresentacion
 
 
         }
+
+       
     }
 }

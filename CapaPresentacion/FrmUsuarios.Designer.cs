@@ -196,7 +196,6 @@
             this.CboEstado.Name = "CboEstado";
             this.CboEstado.Size = new System.Drawing.Size(207, 21);
             this.CboEstado.TabIndex = 14;
-            this.CboEstado.SelectedIndexChanged += new System.EventHandler(this.CboEstado_SelectedIndexChanged);
             // 
             // label1
             // 
