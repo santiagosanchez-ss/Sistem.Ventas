@@ -111,7 +111,7 @@ namespace CapaPresentacion
                     DataGridViewRow Row = DGVData.Rows[Convert.ToInt32(TxtIndice.Text)];
                     Row.Cells["Id"].Value = TxtId.Text;
                     Row.Cells["documento"].Value = TxtDocumento.Text;
-                    Row.Cells["RazonSocial"].Value = LabelRazonSocial.Text;
+                    Row.Cells["RazonSocial"].Value = TxtRazonSocial.Text;
                     Row.Cells["Correo"].Value = TxtCorreo.Text;
                     Row.Cells["Telefono"].Value = TxtTelefono.Text;
 
