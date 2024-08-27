@@ -1,9 +1,17 @@
 ﻿using CapaEntidad;
 using CapaNegocio;
 using CapaPresentacion.Utilidades;
+using DocumentFormat.OpenXml.Wordprocessing;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace CapaPresentacion.Modales
 {
@@ -40,7 +48,7 @@ namespace CapaPresentacion.Modales
             foreach (Producto item in ListaProductos)
             {
                 DGVData.Rows.Add(new object[] {
-                    "",
+                    
                     item.IdProducto,
                     item.Codigo,
                     item.Nombre,
@@ -89,28 +97,6 @@ namespace CapaPresentacion.Modales
             }
         }
 
-        private void DGVData_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
-        {
-            int iRow = e.RowIndex;
-            int iColumn = e.ColumnIndex;
-
-            if (iRow >= 0 && iColumn > 0)
-            {
-                _Producto = new Producto()
-                {
-                    IdProducto = Convert.ToInt32(DGVData.Rows[iRow].Cells["Id"].Value.ToString()),
-                    Codigo = DGVData.Rows[iRow].Cells["Codigo"].Value.ToString(),
-                    Nombre = DGVData.Rows[iRow].Cells["Nombre"].Value.ToString(),
-                    Stock = Convert.ToInt32(DGVData.Rows[iRow].Cells["Stock"].Value.ToString()),
-                    PrecioCompra = Convert.ToInt32(DGVData.Rows[iRow].Cells["PrecioCompra"].Value.ToString()),
-                    PrecioVenta = Convert.ToInt32(DGVData.Rows[iRow].Cells["PrecioVenta"].Value.ToString()),
-                };
-
-                this.DialogResult = DialogResult.OK;
-                this.Close();
-
-            }
-        }
 
         private void DGVData_CellDoubleClick_1(object sender, DataGridViewCellEventArgs e)
         {
@@ -125,8 +111,8 @@ namespace CapaPresentacion.Modales
                     Codigo = DGVData.Rows[iRow].Cells["Codigo"].Value.ToString(),
                     Nombre = DGVData.Rows[iRow].Cells["Nombre"].Value.ToString(),
                     Stock = Convert.ToInt32(DGVData.Rows[iRow].Cells["Stock"].Value.ToString()),
-                    PrecioCompra = Convert.ToInt32(DGVData.Rows[iRow].Cells["PrecioCompra"].Value.ToString()),
-                    PrecioVenta= Convert.ToInt32(DGVData.Rows[iRow].Cells["PrecioVenta"].Value.ToString()),
+                    PrecioCompra = Convert.ToDecimal(DGVData.Rows[iRow].Cells["PrecioCompra"].Value.ToString()),
+                    PrecioVenta = Convert.ToDecimal(DGVData.Rows[iRow].Cells["PrecioVenta"].Value.ToString()),
                 };
 
                 this.DialogResult = DialogResult.OK;
