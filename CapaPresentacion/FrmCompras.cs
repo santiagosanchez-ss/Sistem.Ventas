@@ -142,7 +142,7 @@ namespace CapaPresentacion
                 return;
             }
 
-            if (!decimal.TryParse(TxtPrecioVen.Text, out PrecioCompra))
+            if (!decimal.TryParse(TxtPrecioVen.Text, out PrecioVenta))
             {
                 MessageBox.Show("Precio Venta: Debe seleccionar un producto", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 txtPrecioComp.Select();
@@ -216,7 +216,7 @@ namespace CapaPresentacion
                 formato.NumberDecimalSeparator = ",";
                 formato.CurrencySymbol = "$";
 
-                TxtPrecioTotal.Text = (total.ToString("C", formato));
+                TxtPrecioTotal.Text = (total.ToString("N", formato));
             }
         }
 
@@ -408,6 +408,7 @@ namespace CapaPresentacion
                 TxtIdProveedor.Text = "0";
                 TxtdocProveedor.Text = "";
                 textNombreProveedor.Text = "";
+                TxtPrecioTotal.Text = "";
                 DgvData.Rows.Clear();
                 Calcular();
             }
@@ -416,6 +417,8 @@ namespace CapaPresentacion
                 MessageBox.Show(Mensaje, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
+
+        
     }
 }
 

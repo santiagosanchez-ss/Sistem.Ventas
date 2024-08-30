@@ -382,7 +382,7 @@
             this.BtnLimpiarBuscador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnLimpiarBuscador.ForeColor = System.Drawing.Color.Black;
             this.BtnLimpiarBuscador.IconChar = FontAwesome.Sharp.IconChar.Broom;
-            this.BtnLimpiarBuscador.IconColor = System.Drawing.Color.Black;
+            this.BtnLimpiarBuscador.IconColor = System.Drawing.Color.SkyBlue;
             this.BtnLimpiarBuscador.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnLimpiarBuscador.IconSize = 18;
             this.BtnLimpiarBuscador.Location = new System.Drawing.Point(1013, 57);
@@ -400,7 +400,7 @@
             this.BtnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnBuscar.ForeColor = System.Drawing.Color.Black;
             this.BtnBuscar.IconChar = FontAwesome.Sharp.IconChar.Searchengin;
-            this.BtnBuscar.IconColor = System.Drawing.Color.Black;
+            this.BtnBuscar.IconColor = System.Drawing.Color.ForestGreen;
             this.BtnBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnBuscar.IconSize = 18;
             this.BtnBuscar.Location = new System.Drawing.Point(964, 57);

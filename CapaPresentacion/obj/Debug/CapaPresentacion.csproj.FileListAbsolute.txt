@@ -48,3 +48,10 @@ C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\Syste
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmNegocio.resources
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.MdProveedor.resources
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.MdProducto.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmDetalleCompra.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\itextsharp.dll
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\itextsharp.xml
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.MdCliente.resources

@@ -50,6 +50,7 @@
     <Compile Include="CDProducto.cs" />
     <Compile Include="CDProveedor.cs" />
     <Compile Include="CDRol.cs" />
+    <Compile Include="CDVenta.cs" />
     <Compile Include="Conexion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CDUsuario.cs" />

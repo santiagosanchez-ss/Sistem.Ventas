@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\capapresentacion\\frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\capapresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DB6FBE96-C76A-482A-A47D-92D8AB4E3FC1}|CapaDatos\\CapaDatos.csproj|C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\capadatos\\cdcompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB6FBE96-C76A-482A-A47D-92D8AB4E3FC1}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdcompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\santiago\\source\\repos\\capapresentacion\\capapresentacion\\modales\\mdproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4C703B-39E4-4FED-A746-43DB28B8FA01}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\modales\\mdproveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -43,50 +47,65 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CDCompra.cs",
-              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaDatos\\CDCompra.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\CDCompra.cs",
-              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaDatos\\CDCompra.cs",
-              "RelativeToolTip": "CapaDatos\\CDCompra.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAswEEAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T20:49:36.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmUsuarios.cs",
-              "RelativeDocumentMoniker": "CapaPresentacion\\FrmUsuarios.cs",
-              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmUsuarios.cs",
-              "RelativeToolTip": "CapaPresentacion\\FrmUsuarios.cs",
-              "ViewState": "AQIAAOMAAAAAAAAAAAAMwBkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T20:17:21.123Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "FrmCompras.cs",
               "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmCompras.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\FrmCompras.cs",
               "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmCompras.cs",
               "RelativeToolTip": "CapaPresentacion\\FrmCompras.cs",
-              "ViewState": "AQIAAH8BAAAAAAAAAAAswJcBAAApAAAA",
+              "ViewState": "AQIAABQBAAAAAAAAAAAAADQBAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T19:51:43.855Z",
+              "WhenOpened": "2024-08-29T23:56:46.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FrmCompras.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmCompras.cs",
               "RelativeDocumentMoniker": "CapaPresentacion\\FrmCompras.cs",
               "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmCompras.cs [Dise\u00F1o]",
               "RelativeToolTip": "CapaPresentacion\\FrmCompras.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T19:51:37.653Z"
+              "WhenOpened": "2024-08-29T23:56:41.796Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MdProveedor.cs",
+              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Modales\\MdProveedor.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Modales\\MdProveedor.cs",
+              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\Modales\\MdProveedor.cs",
+              "RelativeToolTip": "CapaPresentacion\\Modales\\MdProveedor.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAABwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T23:33:38.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmVentas.cs",
+              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmVentas.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\FrmVentas.cs",
+              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmVentas.cs",
+              "RelativeToolTip": "CapaPresentacion\\FrmVentas.cs",
+              "ViewState": "AQIAAOUAAAAAAAAAAAAAAPMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T22:28:04.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmVentas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmVentas.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\FrmVentas.cs",
+              "ToolTip": "C:\\Users\\santiago\\source\\repos\\CapaPresentacion\\CapaPresentacion\\FrmVentas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\FrmVentas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T22:07:46.672Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         },
