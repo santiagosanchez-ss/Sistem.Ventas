@@ -65,7 +65,7 @@
             this.label10.BackColor = System.Drawing.Color.White;
             this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(161, 9);
+            this.label10.Location = new System.Drawing.Point(111, 9);
             this.label10.Name = "label10";
             this.label10.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
             this.label10.Size = new System.Drawing.Size(599, 453);
@@ -76,7 +76,7 @@
             // 
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(174, 22);
+            this.label1.Location = new System.Drawing.Point(124, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(183, 23);
             this.label1.TabIndex = 26;
@@ -86,7 +86,7 @@
             // 
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(322, 64);
+            this.label5.Location = new System.Drawing.Point(272, 64);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(100, 16);
             this.label5.TabIndex = 33;
@@ -94,7 +94,7 @@
             // 
             // TxtBusqueda
             // 
-            this.TxtBusqueda.Location = new System.Drawing.Point(428, 63);
+            this.TxtBusqueda.Location = new System.Drawing.Point(378, 63);
             this.TxtBusqueda.Name = "TxtBusqueda";
             this.TxtBusqueda.Size = new System.Drawing.Size(123, 20);
             this.TxtBusqueda.TabIndex = 34;
@@ -111,7 +111,7 @@
             this.BtnBuscar.IconColor = System.Drawing.Color.ForestGreen;
             this.BtnBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnBuscar.IconSize = 16;
-            this.BtnBuscar.Location = new System.Drawing.Point(557, 62);
+            this.BtnBuscar.Location = new System.Drawing.Point(507, 62);
             this.BtnBuscar.Name = "BtnBuscar";
             this.BtnBuscar.Size = new System.Drawing.Size(80, 21);
             this.BtnBuscar.TabIndex = 35;
@@ -132,7 +132,7 @@
             this.BtnLimpiarBuscador.IconColor = System.Drawing.Color.SkyBlue;
             this.BtnLimpiarBuscador.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.BtnLimpiarBuscador.IconSize = 15;
-            this.BtnLimpiarBuscador.Location = new System.Drawing.Point(641, 62);
+            this.BtnLimpiarBuscador.Location = new System.Drawing.Point(591, 62);
             this.BtnLimpiarBuscador.Name = "BtnLimpiarBuscador";
             this.BtnLimpiarBuscador.Size = new System.Drawing.Size(80, 21);
             this.BtnLimpiarBuscador.TabIndex = 36;
@@ -152,7 +152,7 @@
             this.groupBox3.Controls.Add(this.TxtTipoDocumento);
             this.groupBox3.Controls.Add(this.TxtFechaCompra);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(178, 101);
+            this.groupBox3.Location = new System.Drawing.Point(128, 101);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(563, 74);
             this.groupBox3.TabIndex = 37;
@@ -216,7 +216,7 @@
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.TxtDocumentoProv);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(178, 194);
+            this.groupBox1.Location = new System.Drawing.Point(128, 194);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(563, 74);
             this.groupBox1.TabIndex = 38;
@@ -272,7 +272,7 @@
             this.PrecioCompra,
             this.Cantidad,
             this.SubTotal});
-            this.DgvData.Location = new System.Drawing.Point(178, 274);
+            this.DgvData.Location = new System.Drawing.Point(128, 274);
             this.DgvData.Name = "DgvData";
             this.DgvData.Size = new System.Drawing.Size(563, 150);
             this.DgvData.TabIndex = 39;
@@ -303,7 +303,7 @@
             // 
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(175, 427);
+            this.label3.Location = new System.Drawing.Point(125, 427);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(100, 16);
             this.label3.TabIndex = 40;
@@ -311,7 +311,7 @@
             // 
             // TxtMontoTotal
             // 
-            this.TxtMontoTotal.Location = new System.Drawing.Point(271, 426);
+            this.TxtMontoTotal.Location = new System.Drawing.Point(221, 426);
             this.TxtMontoTotal.Name = "TxtMontoTotal";
             this.TxtMontoTotal.Size = new System.Drawing.Size(73, 20);
             this.TxtMontoTotal.TabIndex = 41;
@@ -328,7 +328,7 @@
             this.BtnDescargarPDF.IconColor = System.Drawing.Color.Crimson;
             this.BtnDescargarPDF.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.BtnDescargarPDF.IconSize = 18;
-            this.BtnDescargarPDF.Location = new System.Drawing.Point(601, 426);
+            this.BtnDescargarPDF.Location = new System.Drawing.Point(551, 426);
             this.BtnDescargarPDF.Name = "BtnDescargarPDF";
             this.BtnDescargarPDF.Size = new System.Drawing.Size(140, 28);
             this.BtnDescargarPDF.TabIndex = 85;

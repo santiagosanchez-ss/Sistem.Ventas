@@ -155,7 +155,7 @@ namespace CapaDatos
 
                     StringBuilder query = new StringBuilder();
 
-                    query.AppendLine("select p.Nombre, dc.PrecioCompra, dc.Cantidad, dc.MontoTotal\r\nfrom DETALLE_COMPRA dc");
+                    query.AppendLine("select p.Nombre, dc.PrecioCompra, dc.Cantidad, dc.MontoTotal from DETALLE_COMPRA dc");
                     query.AppendLine("inner join PRODUCTO p on p.IdProducto = dc.IdProducto");
                     query.AppendLine("where dc.IdCompra = @IdCompra");
 
