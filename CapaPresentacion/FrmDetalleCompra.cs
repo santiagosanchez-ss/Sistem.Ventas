@@ -117,7 +117,7 @@ namespace CapaPresentacion
 
             //Ventana de dialogo que nos dice donde guardar
             SaveFileDialog SaveFile = new SaveFileDialog();
-            SaveFile.FileName = string.Format("Compra{0}[{1}].pdf", TxtBusqueda.Text,TxtFechaCompra.Text);
+            SaveFile.FileName = string.Format("Compra{0}.pdf", TxtBusqueda.Text, TxtFechaCompra.Text);
             SaveFile.Filter = "pdf files|*.pdf";
 
             //SI SaveFila no falla 

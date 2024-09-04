@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.TxtCantidad = new System.Windows.Forms.NumericUpDown();
             this.TxtIdProducto = new System.Windows.Forms.TextBox();
             this.TxtPrecio = new System.Windows.Forms.TextBox();
@@ -191,10 +191,10 @@
             // 
             // BtnEliminar
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Red;
-            this.BtnEliminar.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Red;
+            this.BtnEliminar.DefaultCellStyle = dataGridViewCellStyle3;
             this.BtnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnEliminar.HeaderText = "";
             this.BtnEliminar.Name = "BtnEliminar";

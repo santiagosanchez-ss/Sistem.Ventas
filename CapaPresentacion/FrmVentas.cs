@@ -33,8 +33,8 @@ namespace CapaPresentacion
             TxtFecha.Text = DateTime.Now.ToString("dd/MM/yyyy");
 
             TxtIdProducto.Text = "0";
-            TxtPagaCon.Text = "";
-            TxtCambio.Text = "";
+            TxtPagaCon.Text = "0";
+            TxtCambio.Text = "0";
             TxtTotalAPagar.Text = "0";
             TxtIdCliente.Text = "0";
 
@@ -351,9 +351,16 @@ namespace CapaPresentacion
                 MessageBox.Show("No existe productos en la venta", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
 
+            if (TxtPagaCon.Text == "")
+            {
+                MessageBox.Show("No  ingreso el monto con el que paga el cliente", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
-            total = Convert.ToDecimal(TxtTotalAPagar.Text);
-            pagaCon = Convert.ToDecimal(TxtPagaCon.Text);
+
+            }
+            
+                total = Convert.ToDecimal(TxtTotalAPagar.Text);
+                pagaCon = Convert.ToDecimal(TxtPagaCon.Text);
+
 
 
             if (TxtPagaCon.Text.Trim() == "")
@@ -372,6 +379,7 @@ namespace CapaPresentacion
                     TxtCambio.Text = MontoDevuelto.ToString("0.00");
                 }
             }
+            
 
         }
 
@@ -398,6 +406,11 @@ namespace CapaPresentacion
             {
                 MessageBox.Show("Ud debe ingresar el nombre del cliente", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
+            if (TxtPagaCon.Text == "")
+            {
+                MessageBox.Show("Ud debe ingresar el monto con el que paga el cliente", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+           
 
             if (DgvData.Rows.Count < 1)
             {
@@ -426,18 +439,21 @@ namespace CapaPresentacion
             int IdCorrelativo = new CNVenta().ObtenerCorrelativo();
             string numeroDocumento = string.Format("{0:0000}", IdCorrelativo);
             CalcularCambio();
-
-            Venta oVenta = new Venta()
-            {
-                oUsuario = new Usuario() { IdUsuario = _Usuario.IdUsuario },
-                TipoDocumento = ((OpcionCombo)CboTipoDocumento.SelectedItem).Texto,
-                NumeroDocumento = numeroDocumento,
-                DocumentoCliente = TxtdocCliente.Text,
-                NombreCliente = txtNombreCliente.Text,
-                MontoPago = Convert.ToDecimal(TxtPagaCon.Text),
-                MontoCambio = Convert.ToDecimal(TxtCambio.Text),
-                MontoTotal = Convert.ToDecimal(TxtTotalAPagar.Text),
-            };
+            
+                Venta oVenta = new Venta()
+                {
+                    oUsuario = new Usuario() { IdUsuario = _Usuario.IdUsuario },
+                    TipoDocumento = ((OpcionCombo)CboTipoDocumento.SelectedItem).Texto,
+                    NumeroDocumento = numeroDocumento,
+                    DocumentoCliente = TxtdocCliente.Text,
+                    NombreCliente = txtNombreCliente.Text,
+                    MontoTotal = Convert.ToDecimal(TxtTotalAPagar.Text),
+                    MontoPago = Convert.ToDecimal(TxtPagaCon.Text),
+                    MontoCambio = Convert.ToDecimal(TxtCambio.Text),
+                   
+                };
+            
+        
 
             string mensaje = string.Empty;
 
@@ -455,6 +471,7 @@ namespace CapaPresentacion
                 txtNombreCliente.Text = "";
                 DgvData.Rows.Clear();
                 Calcular();
+                TxtTotalAPagar.Text = "";
                 TxtPagaCon.Text = "";
                 TxtCambio.Text = "";
             }
