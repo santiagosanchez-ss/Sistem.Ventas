@@ -360,6 +360,11 @@ namespace CapaPresentacion
 
 
         }
+
+        private void CboBusqueda_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
