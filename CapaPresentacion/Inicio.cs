@@ -1,15 +1,12 @@
-﻿using System;
+﻿using CapaEntidad;
+using CapaNegocio;
+using CapaPresentacion.Modales;
+using FontAwesome.Sharp;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using CapaEntidad;
-using FontAwesome.Sharp;
-using CapaNegocio;
 namespace CapaPresentacion
 {
     public partial class Inicio : Form
@@ -21,34 +18,35 @@ namespace CapaPresentacion
 
 
         //Metodos
-        public Inicio(Usuario objusuario = null )
+        public Inicio(Usuario objusuario = null)
         {
             if (objusuario == null)
             {
                 UsuarioActual = new Usuario() { NombreCompleto = "ADMIN PREDEFINIDO", IdUsuario = 1 };
-            }else
+            }
+            else
             {
                 UsuarioActual = objusuario;
             }
             InitializeComponent();
         }
 
-        
-        
-       
 
-       
+
+
+
+
         private void Inicio_Load(object sender, EventArgs e)
         {
 
             List<Permiso> ListaPermiso = new CNPermiso().Listar(UsuarioActual.IdUsuario);
 
-            foreach(IconMenuItem IconMenu in menu.Items)
+            foreach (IconMenuItem IconMenu in menu.Items)
 
             {
                 bool Encontrado = ListaPermiso.Any(m => m.NombreMenu == IconMenu.Name);
 
-                if(Encontrado == true)
+                if (Encontrado == true)
                 {
                     IconMenu.Visible = true;
                 }
@@ -64,19 +62,19 @@ namespace CapaPresentacion
             {
                 MenuActivo.BackColor = Color.White;
             }
-            
-                menu.BackColor = Color.Silver;
-                MenuActivo = menu;
-            
 
-            if(FormularioActivo != null)
+            menu.BackColor = Color.Silver;
+            MenuActivo = menu;
+
+
+            if (FormularioActivo != null)
             {
                 FormularioActivo.Close();
             }
 
             FormularioActivo = formulario;
             formulario.TopLevel = false;
-            formulario.FormBorderStyle = FormBorderStyle.None;  
+            formulario.FormBorderStyle = FormBorderStyle.None;
             formulario.Dock = DockStyle.Fill;
             formulario.BackColor = Color.SteelBlue;
 
@@ -86,7 +84,7 @@ namespace CapaPresentacion
 
         private void MenuUsuario_Click(object sender, EventArgs e)
         {
-            AbrirFormulario((IconMenuItem)sender, new FrmUsuarios()); 
+            AbrirFormulario((IconMenuItem)sender, new FrmUsuarios());
 
         }
 
@@ -104,7 +102,7 @@ namespace CapaPresentacion
         }
 
         //VENTAS Y SUB CATEGORIAS
-        
+
 
         private void submenuregistrarventa_Click(object sender, EventArgs e)
         {
@@ -143,7 +141,7 @@ namespace CapaPresentacion
 
         }
 
-    
+
 
         private void SubMenuNegocio_Click(object sender, EventArgs e)
         {
@@ -160,6 +158,21 @@ namespace CapaPresentacion
         {
             AbrirFormulario(MenuReportes, new FrmReporteVentas());
 
+        }
+
+        private void MenuAcercaDe_Click(object sender, EventArgs e)
+        {
+            MdAcercaDe md = new MdAcercaDe();
+            md.ShowDialog();
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Desea Salir?", "Mensaje", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                this.Close();
+                }
+                
         }
     }
 }

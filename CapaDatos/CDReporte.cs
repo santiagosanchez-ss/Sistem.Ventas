@@ -1,6 +1,5 @@
 ﻿using CapaEntidad;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -20,7 +19,7 @@ namespace CapaDatos
                 try
                 {
 
-                   // StringBuilder query = new StringBuilder();
+                    // StringBuilder query = new StringBuilder();
                     SqlCommand cmd = new SqlCommand("SPReporteCompra", oConexion);
                     DateTime fechaInicioConvertida = DateTime.Parse(FechaInicio);
                     DateTime fechaFinConvertida = DateTime.Parse(FechaFin);
@@ -30,7 +29,7 @@ namespace CapaDatos
                     cmd.Parameters.AddWithValue("IdProveedor", IdProveedor);
                     cmd.CommandType = CommandType.StoredProcedure;
 
-                   
+
 
 
                     oConexion.Open();
@@ -82,10 +81,13 @@ namespace CapaDatos
                 {
 
                     StringBuilder query = new StringBuilder();
-                    SqlCommand cmd = new SqlCommand("SPReporteCompra", oConexion);
-                    cmd.Parameters.AddWithValue("FechaInicio", FechaInicio);
-                    cmd.Parameters.AddWithValue("FechaFin", FechaFin);
-                   
+                    SqlCommand cmd = new SqlCommand("SPReporteVenta", oConexion); 
+                    DateTime fechaInicioConvertida = DateTime.Parse(FechaInicio);
+                    DateTime fechaFinConvertida = DateTime.Parse(FechaFin);
+
+                    cmd.Parameters.AddWithValue("FechaInicio", fechaInicioConvertida);
+                    cmd.Parameters.AddWithValue("FechaFin", fechaFinConvertida);
+
                     cmd.CommandType = CommandType.StoredProcedure;
 
 

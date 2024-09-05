@@ -57,3 +57,5 @@ C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\bin\Debug\itext
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.MdCliente.resources
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmDetalleVenta.resources
 C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteCompras.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.FrmReporteVentas.resources
+C:\Users\santiago\source\repos\CapaPresentacion\CapaPresentacion\obj\Debug\CapaPresentacion.Modales.MdAcercaDe.resources

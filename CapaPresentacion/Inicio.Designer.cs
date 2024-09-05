@@ -45,12 +45,14 @@
             this.MenuClientes = new FontAwesome.Sharp.IconMenuItem();
             this.MenuProveedores = new FontAwesome.Sharp.IconMenuItem();
             this.MenuReportes = new FontAwesome.Sharp.IconMenuItem();
+            this.SubMenuReporteCompras = new System.Windows.Forms.ToolStripMenuItem();
+            this.SubmenuReporteVentas = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuAcercaDe = new FontAwesome.Sharp.IconMenuItem();
+            this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Usuario = new System.Windows.Forms.Label();
             this.LblUsuario = new System.Windows.Forms.Label();
             this.contenedor = new System.Windows.Forms.Panel();
-            this.SubMenuReporteCompras = new System.Windows.Forms.ToolStripMenuItem();
-            this.SubmenuReporteVentas = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnSalir = new FontAwesome.Sharp.IconButton();
             this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -270,9 +272,25 @@
             this.MenuReportes.Text = "Reportes";
             this.MenuReportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
+            // SubMenuReporteCompras
+            // 
+            this.SubMenuReporteCompras.Name = "SubMenuReporteCompras";
+            this.SubMenuReporteCompras.Size = new System.Drawing.Size(161, 22);
+            this.SubMenuReporteCompras.Text = "Reporte Compra";
+            this.SubMenuReporteCompras.Click += new System.EventHandler(this.SubMenuReporteCompras_Click);
+            // 
+            // SubmenuReporteVentas
+            // 
+            this.SubmenuReporteVentas.Name = "SubmenuReporteVentas";
+            this.SubmenuReporteVentas.Size = new System.Drawing.Size(161, 22);
+            this.SubmenuReporteVentas.Text = "Reporte Ventas";
+            this.SubmenuReporteVentas.Click += new System.EventHandler(this.SubmenuReporteVentas_Click);
+            // 
             // MenuAcercaDe
             // 
             this.MenuAcercaDe.AutoSize = false;
+            this.MenuAcercaDe.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.acercaDeToolStripMenuItem});
             this.MenuAcercaDe.IconChar = FontAwesome.Sharp.IconChar.CircleInfo;
             this.MenuAcercaDe.IconColor = System.Drawing.Color.Black;
             this.MenuAcercaDe.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -282,6 +300,13 @@
             this.MenuAcercaDe.Size = new System.Drawing.Size(122, 69);
             this.MenuAcercaDe.Text = "Acerca de";
             this.MenuAcercaDe.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.MenuAcercaDe.Click += new System.EventHandler(this.MenuAcercaDe_Click);
+            // 
+            // acercaDeToolStripMenuItem
+            // 
+            this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.acercaDeToolStripMenuItem.Text = "Acerca de";
             // 
             // Usuario
             // 
@@ -312,25 +337,30 @@
             this.contenedor.Size = new System.Drawing.Size(1140, 600);
             this.contenedor.TabIndex = 5;
             // 
-            // SubMenuReporteCompras
+            // btnSalir
             // 
-            this.SubMenuReporteCompras.Name = "SubMenuReporteCompras";
-            this.SubMenuReporteCompras.Size = new System.Drawing.Size(180, 22);
-            this.SubMenuReporteCompras.Text = "Reporte Compra";
-            this.SubMenuReporteCompras.Click += new System.EventHandler(this.SubMenuReporteCompras_Click);
-            // 
-            // SubmenuReporteVentas
-            // 
-            this.SubmenuReporteVentas.Name = "SubmenuReporteVentas";
-            this.SubmenuReporteVentas.Size = new System.Drawing.Size(180, 22);
-            this.SubmenuReporteVentas.Text = "Reporte Ventas";
-            this.SubmenuReporteVentas.Click += new System.EventHandler(this.SubmenuReporteVentas_Click);
+            this.btnSalir.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnSalir.FlatAppearance.BorderColor = System.Drawing.Color.SteelBlue;
+            this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSalir.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnSalir.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
+            this.btnSalir.IconColor = System.Drawing.Color.White;
+            this.btnSalir.IconFont = FontAwesome.Sharp.IconFont.Solid;
+            this.btnSalir.IconSize = 30;
+            this.btnSalir.Location = new System.Drawing.Point(1046, 6);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
+            this.btnSalir.Size = new System.Drawing.Size(43, 32);
+            this.btnSalir.TabIndex = 6;
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1148, 561);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.contenedor);
             this.Controls.Add(this.LblUsuario);
             this.Controls.Add(this.Usuario);
@@ -374,6 +404,8 @@
         private System.Windows.Forms.ToolStripMenuItem SubMenuNegocio;
         private System.Windows.Forms.ToolStripMenuItem SubMenuReporteCompras;
         private System.Windows.Forms.ToolStripMenuItem SubmenuReporteVentas;
+        private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
+        private FontAwesome.Sharp.IconButton btnSalir;
     }
 }
 
